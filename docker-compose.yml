@@ -1,0 +1,8 @@
+services:
+  main-app:
+    image: rust:latest
+    entrypoint: ["sh", "-c", "rustup target add thumbv6m-none-eabi && sh"]
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./:/usr/src/rs-alloc
