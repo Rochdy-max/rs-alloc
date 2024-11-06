@@ -1,7 +1,10 @@
-name: Cargo Build & Test
+name: Build & no_std Compatibility Check
 
 on:
   push:
+    branches:
+      - main
+  pull_request:
     branches:
       - main
 
