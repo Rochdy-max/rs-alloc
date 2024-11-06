@@ -1,4 +1,3 @@
-
 #[cfg(feature = "myalloc")]
 mod enable_myalloc {
     use rs_alloc::myalloc::MyAlloc;
